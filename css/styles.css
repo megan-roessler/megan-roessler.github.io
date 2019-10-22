@@ -1,9 +1,9 @@
 	.navbar {
-		background-color: #000000;
-		border-color: #ffffff;
-		font-family: 'Barlow', sans-serif;
+		background-color: #FFF;
+		border-color: #FFF;
+		font-family: fira-sans, sans-serif;
 		text-align: center;
-		font-size: 24px;
+		font-size: 16px;
 	}
 	
 	body {
@@ -22,19 +22,21 @@
 	}
 	
 	.portfolio-blog {
-		text-align: justify;
-		font-family: "Helvetica";
-		width: 80%;
+		text-align: left;
+		font-family: fira-sans, sans-serif;
+		width: 20%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		float: right;
 	}
 	
 	.portfolio-feature img {
-		width: 80%;
+		width: 75%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		float: left;
 	}
 	
 	.about-container {
@@ -52,22 +54,14 @@
 	
 	.portfolio-bio {
 		width: 50%;
-		font-family: "Helvetica";
-		text-align: justify;
+		font-family: fira-sans;
+		text-align: left;
 		padding-right: 10px;
 	}
 	
 	.connect {
 		text-align: center;
 		float: right;
-	}
-	
-	.resume {
-		float: center;
-		width: 50%;
-		margin-left: 25%;
-		margin-right: 25%;
-		font-family: "Helvetica";
 	}
 	
 	.container {
@@ -86,16 +80,16 @@
 	
 	h1 {
 		text-align: center;
-		font-family: "Helvetica";
+		font-family: abril-display;
 	}
 	
 	h2 {
 		text-align: center;
-		font-family: "Helvetica";
+		font-family: abril-display;
 	}
 	
 	h3 {
-		font-family: "Helvetica";
+		font-family: abril-display;
 		font-size: medium;
 		letter-spacing: 1px;
 	}
@@ -108,4 +102,29 @@
 	.brava-list {
 		text-align: left;
 		margin-left: 15%;
+	}
+	
+	.landing {
+		text-align: left;
+		float: center;
+		font-family: abril-display;
+		font-size: 72px;
+		margin: 0px 0px 70px;
+	}
+	
+	.landing-img {
+		width: 30%;
+		float: right;
+		margin: 0px 70px 0px 0px;
+	}
+	
+	a:link,
+	a:visited{
+		color: #000;
+		background-color: #FFF;
+	}
+	
+	a:hover{
+		color: #FFF;
+		background-color: #000;
 	}
